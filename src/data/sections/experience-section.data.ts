@@ -2,81 +2,65 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
 import {
-  chakraUi,
+  bootstrap,
+  docker,
   eslint,
-  firebase,
   nextJs,
-  nx,
   pnpm,
   react,
   reactQuery,
+  symfony,
   tailwindCss,
-  typescript,
-  vue,
+  phpmyadmin,
+  directus,
 } from '../helpers/skills';
 
 const experienceSectionData = {
   config: {
-    title: 'Work experience',
+    title: 'Expérience Professionnelles',
     slug: 'experience',
     icon: 'fa6-solid:suitcase',
     visible: true,
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Développeur Front-End',
+      company: 'VanillaHR',
+      image: import('@/assets/logos/vanillahr-logo.png'),
+      dates: [new Date('2024-05'), new Date('2024-07')],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Participation à la veille technologique
+        - Participation à l'amélioration de la partie Front-End de l'application
+        - Créations de contenus technologiques
+        - Intégration de fonctionnalités avec Next.Js
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [react(), nextJs(), tailwindCss(), docker(), eslint(), reactQuery(), directus()],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [
+        website({ url: 'https://www.vanillahr.com/fr' }),
+        linkedin({ url: 'https://www.linkedin.com/company/vanillahr/' }),
+      ],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Développeur / Intégrateur Web',
+      company: 'E-Pastelsoft',
+      image: import('@/assets/logos/epastelsoft-logo.png'),
+      dates: [new Date('2023-06'), new Date('2023-07')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        - Créations de sites sous Symfony
+        - Intégration de contenus
+        - Établissement de recettes pour les projets finis
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [symfony(), bootstrap(), phpmyadmin()],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
-    },
-    {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
-      description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
-      `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
-      },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [
+        website({ url: 'https://www.epastelsoft.com/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/epastelsoft/' }),
+      ],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

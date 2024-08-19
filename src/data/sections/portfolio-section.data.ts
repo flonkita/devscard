@@ -1,26 +1,21 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { demo, github, mockups, website } from '../helpers/links';
+import { demo, github, website } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
-  jest,
-  nestJs,
-  nextJs,
-  nx,
+  css,
+  flutter,
+  html,
+  javascript,
   pnpm,
-  postgreSql,
   prettier,
   react,
-  sass,
   tailwindCss,
-  typescript,
+  symfony,
 } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
-    title: 'Projects',
+    title: 'Projets',
     slug: 'projects',
     icon: 'fa6-solid:rocket',
     visible: true,
@@ -31,97 +26,112 @@ const portfolioSectionData = {
   },
   projects: [
     {
-      name: 'Golden Bulls',
-      image: import('@/assets/portfolio/project-1.jpeg'),
-      dates: [new Date('2020-03'), null],
+      name: 'Sneakpeek',
+      image: import('@/assets/portfolio/sneakpeek.png'),
+      dates: [new Date('2024-01'), null],
       details: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
+        { label: 'Mon rôle', value: ['Développeur Full-Stack', 'Designer'] },
+        { label: 'Catégories', value: ['Web app', 'Open source'] },
       ],
       pdfDetails: [
-        { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
+        { label: 'Demo', value: 'Soon...', url: '#' },
+        { label: 'Repository', value: 'https://github.com/flonkita/sneakpeek_sf', url: '#' },
+      ],
+      // screenshots: [
+      //   { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
+      //   { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Second screenshot' },
+      //   { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Third screenshot' },
+      // ],
+      description:
+        "Projet pour le Bachelor, une marketplace nommée 'Sneakpeek' où il y aura des ventes, achats de paires de baskets. Les utilisateurs pourront s'inscrire, se connecter, ajouter des produits à leur panier, les acheter, les vendre etc.",
+      tagsList: {
+        title: 'Technologies utilisées',
+        tags: [symfony(), tailwindCss(), pnpm(), prettier()],
+      },
+      links: [github({ url: 'https://github.com/flonkita/sneakpeek_sf' }), demo({ url: '#' })],
+    },
+    {
+      name: 'Appli ToDo',
+      image: import('@/assets/portfolio/todo-app-logo.png'),
+      dates: [new Date('2023-11'), new Date('2024-01')],
+      details: [
+        { label: 'Mon rôle', value: ['Développeur Mobile', 'Designer'] },
+        { label: 'Catégories', value: ['Mobile app'] },
+      ],
+      pdfDetails: [
+        {
+          label: 'Repository',
+          value: 'lien vers le code source',
+          url: 'https://github.com/flonkita/ToDo-App',
+        },
       ],
       screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Second screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Third screenshot' },
+        { src: import('@/assets/portfolio/todo-app-1.png'), alt: "Capture d'écran 1" },
+        { src: import('@/assets/portfolio/todo-app-2.png'), alt: "Capture d'écran 2" },
+        { src: import('@/assets/portfolio/todo-app-3.png'), alt: "Capture d'écran 3" },
       ],
       description:
-        'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
+        "Première application mobile que j'ai développée avec Flutter. Elle permet de gérer une liste de tâches à faire, de les marquer comme terminées et de les supprimer. Les données sont stockées localement sur l'appareil de l'utilisateur.",
       tagsList: {
-        title: 'Technologies',
-        tags: [nextJs(), sass(), pnpm(), eslint(), prettier()],
+        title: 'Technologies utilisées',
+        tags: [flutter()],
       },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
+      links: [github({ url: 'https://github.com/flonkita/ToDo-App' })],
     },
     {
-      name: 'TruQuest',
-      image: import('@/assets/portfolio/project-2.jpeg'),
-      dates: [new Date('2019-06'), new Date('2020-02')],
+      name: 'Tic-Tac-Toe',
+      image: import('@/assets/portfolio/tic-tac-toe.png'),
+      dates: [new Date('2023-07'), new Date('2023-09')],
       details: [
-        { label: 'Team size', value: '7 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Mobile Developer', 'Designer'] },
-        { label: 'Company', value: 'Facebook' },
-        { label: 'Category', value: ['Web app', 'Mobile app'] },
+        { label: 'Mon rôle', value: ['Front-end Developer', 'Designer'] },
+        { label: 'Catégories', value: ['Web app', 'Open source'] },
       ],
       pdfDetails: [
-        { label: 'Demo', value: 'https://tru-quest-ck7ea3.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/tru-quest', url: '#' },
+        {
+          label: 'Demo',
+          value: 'Lien vers le jeu du Morpion (Tic-Tac-Toe) en ligne',
+          url: 'https://tic-tac-toe-flonkita.vercel.app/',
+        },
+        {
+          label: 'Repository',
+          value: 'Code source',
+          url: 'https://github.com/flonkita/TicTacToe',
+        },
       ],
       description:
-        'Ut ultricies tortor at sodales aliquam. Vivamus metus ante, fringilla nec ligula in, suscipit rhoncus mauris. Praesent hendrerit velit odio, at accumsan urna faucibus convallis. Nunc at massa eget ligula volutpat dictum a sit amet libero. Vestibulum iaculis molestie maximus. In hac habitasse platea dictumst.',
+        'Ce projet est une implémentation du jeu du Morpion (Tic-Tac-Toe) en utilisant React. Il permet aux joueurs de s\'affronter en alternant entre "X" et "O", et le jeu détecte automatiquement le gagnant ou le match nul.',
       tagsList: {
-        title: 'Technologies',
-        tags: [react(), tailwindCss(), nestJs(), postgreSql()],
+        title: 'Technologies utilisées',
+        tags: [react(), css(), pnpm()],
       },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
+      links: [
+        website({ url: 'https://tic-tac-toe-flonkita.vercel.app/' }),
+        github({ url: 'https://github.com/flonkita/TicTacToe' }),
+      ],
     },
     {
-      name: 'Software Chasers',
-      image: import('@/assets/portfolio/project-3.jpeg'),
-      dates: [new Date('2018-01'), new Date('2020-12')],
-      details: [
-        { label: 'Team size', value: '3 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
-      ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://software-chasers-e82l8e.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/software-chasers', url: '#' },
-      ],
-      description:
-        'Quisque id consectetur eros. In hac habitasse platea dictumst. Sed eu pulvinar orci. Mauris consequat, est in dignissim varius, neque nisl commodo mauris, id blandit risus justo eu nulla.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [react(), chakraUi(), typescript(), nx(), pnpm()],
-      },
-      links: [website({ url: '#' }), github({ url: '#' })],
-    },
-    {
-      name: 'Disco Ninjas',
-      image: import('@/assets/portfolio/project-4.jpeg'),
+      name: 'Pixel Art Maker',
+      image: import('@/assets/portfolio/pixel-art-maker-logo.png'),
       dates: [new Date('2016-05'), new Date('2018-07')],
       details: [
-        { label: 'Team size', value: '11 people' },
-        { label: 'My role', value: 'Front-end Developer' },
-        { label: 'Company', value: 'Google' },
-        { label: 'Category', value: ['Mobile app', 'Open source'] },
+        { label: 'Mon rôle', value: 'Front-end Developer' },
+        { label: 'Catégories', value: ['Mobile app', 'Open source'] },
       ],
       pdfDetails: [
         { label: 'Demo', value: 'https://disco-ninjas-g321ol.netlify.app', url: '#' },
         { label: 'Repository', value: 'https://github.com/mark-freeman/disco-ninjas', url: '#' },
       ],
+      screenshots: [
+        { src: import('@/assets/portfolio/pixel-art-maker-2.png'), alt: "Capture d'écran 1" },
+        { src: import('@/assets/portfolio/pixel-art-maker.png'), alt: "Capture d'écran 2" },
+      ],
       description:
-        'Praesent eu neque tortor. Vestibulum ac magna nisl. Vivamus massa sem, feugiat in pharetra non, convallis egestas purus. Ut consequat ullamcorper sem, in euismod nibh posuere ut. ',
+        'Ce générateur de tableau de pixel art est un outil qui permet aux utilisateurs de créer des images en utilisant une grille de pixels colorés.',
       tagsList: {
-        title: 'Technologies',
-        tags: [typescript(), jest(), firebase()],
+        title: 'Technologies utilisées',
+        tags: [html(), css(), javascript()],
       },
-      links: [mockups({ url: '#' }), github({ url: '#' })],
+      links: [github({ url: 'https://github.com/flonkita/Pixel-Art' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
