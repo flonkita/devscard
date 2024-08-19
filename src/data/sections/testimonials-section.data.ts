@@ -4,7 +4,7 @@ import { github, linkedin, website } from '../helpers/links';
 
 const testimonialsSectionData = {
   config: {
-    title: 'Testimonials',
+    title: 'Recommandations',
     slug: 'testimonials',
     icon: 'fa6-solid:comment',
     visible: true,
