@@ -11,28 +11,34 @@ const testimonialsSectionData = {
   },
   testimonials: [
     {
-      image: import('@/assets/testimonials/testimonial-1.jpeg'),
-      author: 'Howard Stewart',
-      relation: 'We work together as front-end developers at Google',
+      image: import('@/assets/testimonials/enes-dogan.jpeg'),
+      author: 'Enes Dogan',
+      relation: 'Manager à VanillaHR',
       content:
-        'In nec mattis sem. Morbi purus lorem, euismod ac varius at, aliquet vitae augue. Pellentesque ut facilisis felis. In sed dui blandit, aliquet odio eu, elementum leo. In facilisis dapibus tortor ac volutpat. Cras cursus nec odio maximus elementum.',
-      links: [github({ url: '#' }), linkedin({ url: '#' })],
+        'Florent a fait un bon passage chez nous en tant que stagiaire, il a pu nous prêter main forte sur nos projets tout en améliorant ses compétences avec sa touche de bonne humeur.',
+      links: [linkedin({ url: 'https://www.linkedin.com/in/enes-dogan-9449a38b/' })],
     },
     {
-      image: import('@/assets/testimonials/testimonial-2.jpeg'),
-      author: 'Jean Richards',
-      relation: 'My project manager at GitLab',
+      image: import('@/assets/testimonials/sam-ducourant.jpeg'),
+      author: 'Sam Ducourant',
+      relation: 'Directeur Technique, Co-Fondateur de VanillaHR, Supérieur Direct',
       content:
-        'Praesent nec congue elit. Vestibulum lobortis congue ipsum, a gravida mi tempus ac. Mauris aliquet purus nibh, vel varius turpis tempus non. Nullam eget ultricies orci. Quisque nulla ante, auctor eget varius ac, imperdiet nec magna.',
-      links: [linkedin({ url: '#' })],
+        "Florent s'est montré compétent dans son travail, il a su s'adapter à notre environnement et a su apporter des solutions à nos problèmes. Il a été un élément clé dans notre équipe de développement.",
+      links: [
+        linkedin({ url: 'https://www.linkedin.com/in/samducourant/' }),
+        website({ url: 'https://www.vanillahr.com/en/get-started' }),
+      ],
     },
     {
-      image: import('@/assets/testimonials/testimonial-3.jpeg'),
-      author: 'Jason Fisher',
-      relation: 'My customer for sidewing.com website',
+      image: import('@/assets/testimonials/sada-soumare.jpeg'),
+      author: 'Sada Soumare',
+      relation: 'Tuteur de stage, Fondateur de E-Pastelsoft',
       content:
-        'Mauris tincidunt at purus vehicula porta. Mauris eget mollis turpis. Sed iaculis rutrum pharetra. Vivamus risus quam, suscipit et semper ut, aliquet ut tellus. Donec quis auctor nunc.',
-      links: [github({ url: '#' }), website({ url: '#' })],
+        "Durant son stage, Florent était motivé à apprendre et à s'améliorer dans le développement web sous Symfony. Il a su s'intégrer dans l'équipe et les attentes du projet  et a su apporter des solutions à nos problèmes.",
+      links: [
+        github({ url: 'https://www.linkedin.com/in/sada-soumare-2131a5a5/' }),
+        website({ url: 'https://www.epastelsoft.com/' }),
+      ],
     },
   ],
 } as const satisfies ReadonlyDeep<TestimonialsSection>;
