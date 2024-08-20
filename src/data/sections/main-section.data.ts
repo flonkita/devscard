@@ -20,8 +20,8 @@ const mainSectionData = {
   pdfDetails: [
     { label: 'Phone', value: '07 81 76 62 12' },
     { label: 'Email', value: 'florent.nkita@gmail.com' },
-    { label: 'LinkedIn', value: '/in/florent-nkita/', url: 'https://linkedin.com/in/florent-nkita/' },
-    { label: 'GitHub', value: '/flonkita', url: 'https://github.com/flonkita' },
+    { label: 'LinkedIn', value: 'florent-nkita', url: 'https://linkedin.com/in/florent-nkita/' },
+    { label: 'GitHub', value: 'flonkita', url: 'https://github.com/flonkita' },
     {
       label: 'Website',
       value: 'Lien vers mon portfolio',
