@@ -18,7 +18,7 @@ const config = {
   },
   pdf: {
     footer:
-      'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
+      'J\'accepte par la présente que mes données personnelles incluses dans ma candidature soient traitées à des fins de processus de recrutement.',
   },
 } as const satisfies ReadonlyDeep<Config>;
 
