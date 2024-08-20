@@ -30,7 +30,7 @@ const portfolioSectionData = {
       image: import('@/assets/portfolio/sneakpeek.png'),
       dates: [new Date('2024-01'), null],
       details: [
-        { label: 'Mon rôle', value: ['Développeur Full-Stack', 'Designer'] },
+        { label: 'Mon rôle', value: ['Développeur Full-Stack', 'UX / UI Designer'] },
         { label: 'Catégories', value: ['Appli Web', 'Open source'] },
       ],
       pdfDetails: [
@@ -50,8 +50,8 @@ const portfolioSectionData = {
       image: import('@/assets/portfolio/todo-app-logo.png'),
       dates: [new Date('2023-11'), new Date('2024-01')],
       details: [
-        { label: 'Mon rôle', value: ['Développeur Mobile', 'Designer'] },
-        { label: 'Catégories', value: ['Mobile app'] },
+        { label: 'Mon rôle', value: ['Développeur Mobile', 'UX / UI Designer'] },
+        { label: 'Catégories', value: ['Appli Mobile'] },
       ],
       pdfDetails: [
         {
@@ -78,7 +78,7 @@ const portfolioSectionData = {
       image: import('@/assets/portfolio/tic-tac-toe.png'),
       dates: [new Date('2023-07'), new Date('2023-09')],
       details: [
-        { label: 'Mon rôle', value: ['Développeur Front-End', 'Designer'] },
+        { label: 'Mon rôle', value: ['Développeur Front-End', 'Web Designer'] },
         { label: 'Catégories', value: ['Appli Web', 'Open source'] },
       ],
       pdfDetails: [
