@@ -6,7 +6,7 @@ import {
   flutter,
   mongoDb,
   notion,
-  pnpm,
+  npm,
   prettier,
   react,
   headlessUi,
@@ -59,7 +59,7 @@ const skillsSectionData = {
         flutter({ level: 2 }),
         react({ level: 3 }),
         phpmyadmin({ level: 4 }),
-        pnpm({ level: 3 }),
+        npm({ level: 3 }),
       ],
     },
     {
