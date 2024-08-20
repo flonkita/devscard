@@ -39,7 +39,7 @@ const main = async () => {
   await page.setViewport({ width: 794, height: 1122, deviceScaleFactor: 2 });
 
   await retry({
-    promise: () => goTo(page, 'http://localhost:3000/pdf'),
+    promise: () => goTo(page, 'https://portfolio-flonkita.vercel.app/pdf'),
     retries: 5,
     retryTime: 1000,
   });

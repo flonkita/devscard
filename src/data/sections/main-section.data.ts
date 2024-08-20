@@ -22,7 +22,12 @@ const mainSectionData = {
     { label: 'Email', value: 'florent.nkita@gmail.com' },
     { label: 'LinkedIn', value: '/in/florent-nkita/', url: 'https://linkedin.com/in/florent-nkita/' },
     { label: 'GitHub', value: '/flonkita', url: 'https://github.com/flonkita' },
-    { label: 'Website', value: 'https://portfolio-flonkita.vercel.app/', url: '/', fullRow: true },
+    {
+      label: 'Website',
+      value: 'Lien vers mon portfolio',
+      url: 'https://portfolio-flonkita.vercel.app/',
+      fullRow: true,
+    },
   ],
   description:
     "Après une expérience réussie en tant que développeur Front-End, je suis à la quête de nouveaux défis pour valider mon **Mastère Expert en Solutions Digitales** sous la forme d'une alternance pour une durée de *2 ans*, avec **une semaine** de cours dynamiques et **deux semaines** en entreprise.</br> Mon objectif : apprendre, grandir et développer dans unenvironnement professionnel stimulant !",
