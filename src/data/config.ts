@@ -13,7 +13,7 @@ const config = {
   meta: {
     title: 'Florent Nkita - Portfolio',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+    'Développeur web full-stack passionné par la création de sites web et d\'applications web modernes et performantes.',
     faviconPath: '/src/assets/favicon.png',
   },
   pdf: {
