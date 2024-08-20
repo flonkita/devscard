@@ -31,7 +31,7 @@ const portfolioSectionData = {
       dates: [new Date('2024-01'), null],
       details: [
         { label: 'Mon rôle', value: ['Développeur Full-Stack', 'Designer'] },
-        { label: 'Catégories', value: ['Web app', 'Open source'] },
+        { label: 'Catégories', value: ['Appli Web', 'Open source'] },
       ],
       pdfDetails: [
         { label: 'Demo', value: 'Soon...', url: '#' },
@@ -78,8 +78,8 @@ const portfolioSectionData = {
       image: import('@/assets/portfolio/tic-tac-toe.png'),
       dates: [new Date('2023-07'), new Date('2023-09')],
       details: [
-        { label: 'Mon rôle', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Catégories', value: ['Web app', 'Open source'] },
+        { label: 'Mon rôle', value: ['Développeur Front-End', 'Designer'] },
+        { label: 'Catégories', value: ['Appli Web', 'Open source'] },
       ],
       pdfDetails: [
         {
@@ -109,8 +109,8 @@ const portfolioSectionData = {
       image: import('@/assets/portfolio/pixel-art-maker-logo.png'),
       dates: [new Date('2016-05'), new Date('2018-07')],
       details: [
-        { label: 'Mon rôle', value: 'Front-end Developer' },
-        { label: 'Catégories', value: ['Mobile app', 'Open source'] },
+        { label: 'Mon rôle', value: 'Développeur Front-End' },
+        { label: 'Catégories', value: ['Appli Mobile', 'Open source'] },
       ],
       pdfDetails: [
         { label: 'Demo', value: 'https://disco-ninjas-g321ol.netlify.app', url: '#' },
