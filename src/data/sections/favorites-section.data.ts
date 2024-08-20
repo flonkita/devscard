@@ -3,127 +3,63 @@ import type { ReadonlyDeep } from 'type-fest';
 
 const favoritesSectionData = {
   config: {
-    title: 'My favorites',
+    title: 'Mes favoris',
     slug: 'favorites',
     icon: 'fa6-solid:star',
     visible: true,
   },
-  books: {
-    title: 'Books I read',
-    data: [
-      {
-        image: import('@/assets/favorites/books/book-1.jpeg'),
-        title: 'The Pragmatic Programmer: From Journeyman to Master',
-        author: 'Andy Hunt, Dave Thomas',
-        url: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
-      },
-      {
-        image: import('@/assets/favorites/books/book-2.jpg'),
-        title: 'Domain-Driven Design: Tackling Complexity in the Heart of Software',
-        author: 'Eric Evans',
-        url: 'https://www.goodreads.com/book/show/179133.Domain_Driven_Design',
-      },
-      {
-        image: import('@/assets/favorites/books/book-3.jpeg'),
-        title: 'Clean Code: A Handbook of Agile Software Craftsmanship',
-        author: 'Robert C. Martin',
-        url: 'https://www.goodreads.com/book/show/3735293-clean-code',
-      },
-      {
-        image: import('@/assets/favorites/books/book-4.jpeg'),
-        title: 'The Clean Coder: A Code of Conduct for Professional Programmers',
-        author: 'Robert C. Martin',
-        url: 'https://www.goodreads.com/book/show/10284614-the-clean-coder',
-      },
-    ],
-  },
-  people: {
-    title: 'People I learn from',
-    data: [
-      {
-        image: import('@/assets/favorites/people/person-1.jpg'),
-        name: 'Kent C. Dodds',
-        url: 'https://kentcdodds.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-2.jpeg'),
-        name: 'Kent Beck',
-        url: 'https://www.kentbeck.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-3.jpeg'),
-        name: 'Eric Evans',
-        url: 'https://www.domainlanguage.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-4.jpeg'),
-        name: 'Martin Fowler',
-        url: 'https://martinfowler.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-5.jpg'),
-        name: 'Robert C. Martin',
-        url: 'http://cleancoder.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-6.jpeg'),
-        name: 'Adam Dymitruk',
-        url: 'https://eventmodeling.org/',
-      },
-    ],
-  },
   videos: {
-    title: 'Videos I watched',
+    title: 'Vidéos que je recommande',
     data: [
       {
-        image: import('@/assets/favorites/videos/video-1.jpeg'),
-        title: 'Building Resilient Frontend Architecture • Monica Lent • GOTO 2019',
-        url: 'https://youtu.be/TqfbAXCCVwE',
+        image: import('@/assets/favorites/videos/burnout.jpg'),
+        title: 'Burnout as a programmer',
+        url: 'https://www.youtube.com/watch?v=F8iITIGHbaQ',
       },
       {
-        image: import('@/assets/favorites/videos/video-2.jpeg'),
-        title: 'Scaling Yourself • Scott Hanselman • GOTO 2012',
-        url: 'https://youtu.be/FS1mnISoG7U',
+        image: import('@/assets/favorites/videos/astro-100.jpeg'),
+        title: 'Astro in 100 Seconds',
+        url: 'https://www.youtube.com/watch?v=dsTXcSeAZq8',
       },
       {
-        image: import('@/assets/favorites/videos/video-3.jpeg'),
-        title: "Why Isn't Functional Programming the Norm? - Richard Feldman",
+        image: import('@/assets/favorites/videos/vs-updates-2024.jpeg'),
+        title: 'Top VS Code Updates over the Past Year | Tips & Tricks 2024 (Visual Studio Code)',
         url: 'https://youtu.be/QyJZzq0v7Z4',
       },
     ],
   },
   medias: {
-    title: 'Media I follow',
+    title: 'Médias que je suis',
     data: [
       {
         image: import('@/assets/favorites/media/media-1.jpeg'),
         title: 'Fireship.io',
-        type: 'YouTube channel',
+        type: 'Chaîne YouTube',
         url: 'https://www.youtube.com/c/Fireship',
       },
       {
-        image: import('@/assets/favorites/media/media-2.jpeg'),
-        title: 'Healthy Software Developer',
-        type: 'YouTube channel',
-        url: 'https://www.youtube.com/channel/UCfe_znKY1ukrqlGActlFmaQ',
+        image: import('@/assets/favorites/media/logo-laconsole.jpeg'),
+        title: 'La Console',
+        type: 'Site web',
+        url: 'https://laconsole.dev/',
       },
       {
-        image: import('@/assets/favorites/media/media-3.png'),
-        title: 'Bytes',
-        type: 'Newsletter',
-        url: 'https://bytes.dev/',
+        image: import('@/assets/favorites/media/logo-aurelearn.jpeg'),
+        title: 'Aurelearn',
+        type: 'Site web',
+        url: 'https://learn.aureldvx.fr/',
       },
       {
-        image: import('@/assets/favorites/media/media-4.png'),
-        title: 'TypeScript Weekly',
-        type: 'Newsletter',
-        url: 'https://typescript-weekly.com/',
+        image: import('@/assets/favorites/media/logo-grafikart.png'),
+        title: 'Grafikart',
+        type: 'Chaîne YouTube',
+        url: 'https://www.youtube.com/@grafikart',
       },
       {
-        image: import('@/assets/favorites/media/media-5.jpeg'),
-        title: 'Front End Happy Hour',
-        type: 'Podcast',
-        url: 'https://www.frontendhappyhour.com/',
+        image: import('@/assets/favorites/media/lior-chamla.jpg'),
+        title: 'Lior Chamla',
+        type: 'Chaîne YouTube',
+        url: 'https://www.youtube.com/@LiorCHAMLA',
       },
       {
         image: import('@/assets/favorites/media/media-6.webp'),
