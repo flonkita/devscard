@@ -2,7 +2,6 @@ import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
   astro,
-  directus,
   figma,
   flutter,
   mongoDb,
