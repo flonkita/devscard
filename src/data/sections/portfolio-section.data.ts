@@ -37,11 +37,6 @@ const portfolioSectionData = {
         { label: 'Demo', value: 'Soon...', url: '#' },
         { label: 'Repository', value: 'https://github.com/flonkita/sneakpeek_sf', url: '#' },
       ],
-      // screenshots: [
-      //   { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
-      //   { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Second screenshot' },
-      //   { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Third screenshot' },
-      // ],
       description:
         "Projet pour le Bachelor, une marketplace nommée 'Sneakpeek' où il y aura des ventes, achats de paires de baskets. Les utilisateurs pourront s'inscrire, se connecter, ajouter des produits à leur panier, les acheter, les vendre etc.",
       tagsList: {

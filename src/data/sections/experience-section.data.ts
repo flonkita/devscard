@@ -1,12 +1,11 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+import { linkedin, website } from '../helpers/links';
 import {
   bootstrap,
   docker,
   eslint,
   nextJs,
-  pnpm,
   react,
   reactQuery,
   symfony,
