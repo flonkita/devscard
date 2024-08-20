@@ -71,8 +71,7 @@ const skillsSectionData = {
       title: 'Langues',
       skills: [
         { icon: 'circle-flags:fr', name: 'Français - natif' },
-        { icon: 'circle-flags:us', name: 'English - B1' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
+        { icon: 'circle-flags:en', name: 'English - B1' },
       ],
     },
   ],
