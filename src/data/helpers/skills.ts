@@ -53,6 +53,13 @@ export const css = createSkillFactory({
   url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
 });
 
+export const csharp = createSkillFactory({
+  name: 'C#',
+  icon: 'simple-icons:csharp',
+  iconColor: '#239120',
+  url: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
+});
+
 export const cypress = createSkillFactory({
   name: 'Cypress',
   icon: 'simple-icons:cypress',
@@ -144,12 +151,6 @@ export const jest = createSkillFactory({
   url: 'https://jestjs.io/',
 });
 
-export const csharp = createSkillFactory({
-  name: 'C#',
-  icon: 'simple-icons:csharp',
-  iconColor: '#239120',
-  url: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
-});
 
 export const mongoDb = createSkillFactory({
   name: 'MongoDB',
@@ -186,11 +187,11 @@ export const nx = createSkillFactory({
   url: 'https://nx.dev/',
 });
 
-export const pnpm = createSkillFactory({
-  name: 'pnpm',
-  icon: 'simple-icons:pnpm',
-  iconColor: '#F69220',
-  url: 'https://pnpm.io/',
+export const npm = createSkillFactory({
+  name: 'NPM',
+  icon: 'simple-icons:npm',
+  iconColor: '#CB3837',
+  url: 'https://www.npmjs.com/',
 });
 
 export const postgreSql = createSkillFactory({

@@ -6,7 +6,7 @@ import {
   flutter,
   html,
   javascript,
-  pnpm,
+  npm,
   prettier,
   react,
   tailwindCss,
@@ -35,13 +35,17 @@ const portfolioSectionData = {
       ],
       pdfDetails: [
         { label: 'Demo', value: 'Soon...', url: '#' },
-        { label: 'Repository', value: 'https://github.com/flonkita/sneakpeek_sf', url: '#' },
+        {
+          label: 'Repository',
+          value: 'Code source',
+          url: 'https://github.com/flonkita/sneakpeek_sf',
+        },
       ],
       description:
         "Projet pour le Bachelor, une marketplace nommée 'Sneakpeek' où il y aura des ventes, achats de paires de baskets. Les utilisateurs pourront s'inscrire, se connecter, ajouter des produits à leur panier, les acheter, les vendre etc.",
       tagsList: {
         title: 'Technologies utilisées',
-        tags: [symfony(), tailwindCss(), pnpm(), prettier()],
+        tags: [symfony(), tailwindCss(), npm(), prettier()],
       },
       links: [github({ url: 'https://github.com/flonkita/sneakpeek_sf' }), demo({ url: '#' })],
     },
@@ -56,7 +60,7 @@ const portfolioSectionData = {
       pdfDetails: [
         {
           label: 'Repository',
-          value: 'lien vers le code source',
+          value: 'Code source',
           url: 'https://github.com/flonkita/ToDo-App',
         },
       ],
@@ -97,7 +101,7 @@ const portfolioSectionData = {
         'Ce projet est une implémentation du jeu du Morpion (Tic-Tac-Toe) en utilisant React. Il permet aux joueurs de s\'affronter en alternant entre "X" et "O", et le jeu détecte automatiquement le gagnant ou le match nul.',
       tagsList: {
         title: 'Technologies utilisées',
-        tags: [react(), css(), pnpm()],
+        tags: [react(), css(), npm()],
       },
       links: [
         website({ url: 'https://tic-tac-toe-flonkita.vercel.app/' }),
@@ -107,14 +111,17 @@ const portfolioSectionData = {
     {
       name: 'Pixel Art Maker',
       image: import('@/assets/portfolio/pixel-art-maker-logo.png'),
-      dates: [new Date('2016-05'), new Date('2018-07')],
+      dates: [new Date('2023-06'), new Date('2023-08')],
       details: [
         { label: 'Mon rôle', value: 'Développeur Front-End' },
         { label: 'Catégories', value: ['Appli Mobile', 'Open source'] },
       ],
       pdfDetails: [
-        { label: 'Demo', value: 'https://disco-ninjas-g321ol.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/disco-ninjas', url: '#' },
+        {
+          label: 'Repository',
+          value: 'Code source',
+          url: 'https://github.com/flonkita/Pixel-Art',
+        },
       ],
       screenshots: [
         { src: import('@/assets/portfolio/pixel-art-maker-2.png'), alt: "Capture d'écran 1" },
