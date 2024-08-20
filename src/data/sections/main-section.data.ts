@@ -29,7 +29,7 @@ const mainSectionData = {
   tags: [{ name: 'Ouvert à une alternance !' }, { name: "Sur l'avancement d'un projet" }],
   action: {
     label: 'Téléchargez mon CV !',
-    url: '/CV-Florent_Nkita.pdf',
+    url: '/cv.pdf',
     downloadedFileName: 'CV-Florent_Nkita.pdf',
   },
   links: [github({ url: 'https://github.com/flonkita' }), linkedin({ url: 'https://linkedin.com/in/florent-nkita/' })],
