@@ -6,7 +6,6 @@ import {
   flutter,
   mongoDb,
   notion,
-  npm,
   prettier,
   react,
   headlessUi,
@@ -17,6 +16,7 @@ import {
   mysql,
   phpmyadmin,
   csharp,
+  wordpress,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -59,7 +59,7 @@ const skillsSectionData = {
         flutter({ level: 2 }),
         react({ level: 3 }),
         phpmyadmin({ level: 4 }),
-        npm({ level: 3 }),
+        wordpress({ level: 3 }),
       ],
     },
     {
