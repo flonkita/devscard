@@ -30,7 +30,7 @@ const mainSectionData = {
     },
   ],
   description:
-    "Après une expérience réussie en tant que développeur Front-End, je suis à la quête de nouveaux défis pour valider mon **Mastère Expert en Solutions Digitales** sous la forme d'une alternance pour une durée de *2 ans*, avec **une semaine** de cours dynamiques et **deux semaines** en entreprise.</br> Mon objectif : apprendre, grandir et développer dans unenvironnement professionnel stimulant !",
+    "Après une expérience réussie en tant que développeur Front-End, je suis à la quête de nouveaux défis pour valider mon **Mastère Expert en Solutions Digitales** sous la forme d'une alternance pour une durée de *2 ans*, avec **une semaine** de cours dynamiques et **deux semaines** en entreprise.</br> Mon objectif : apprendre, grandir et développer dans un environnement professionnel stimulant !",
   tags: [{ name: 'Ouvert à une alternance !' }, { name: "Sur l'avancement d'un projet" }],
   action: {
     label: 'Téléchargez mon CV !',
