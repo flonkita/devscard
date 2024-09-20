@@ -243,8 +243,6 @@ export const sass = createSkillFactory({
   url: 'https://sass-lang.com/',
 });
 
-
-
 export const mysql = createSkillFactory({
   name: 'MySQL',
   icon: 'simple-icons:mysql',
@@ -257,13 +255,6 @@ export const symfony = createSkillFactory({
   icon: 'simple-icons:symfony',
   iconColor: '#000000',
   url: 'https://symfony.com/',
-});
-
-export const supabase = createSkillFactory({
-  name: 'Supabase',
-  icon: 'simple-icons:supabase',
-  iconColor: '#3ECF8E',
-  url: 'https://supabase.io/',
 });
 
 export const tailwindCss = createSkillFactory({
