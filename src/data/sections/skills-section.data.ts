@@ -16,6 +16,7 @@ import {
   wordpress,
   vue,
   flutter,
+  shopify,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -65,7 +66,7 @@ const skillsSectionData = {
     },
     {
       title: 'Ce que je souhaite apprendre',
-      skills: [flutter(), csharp(), headlessUi()],
+      skills: [flutter(), csharp(), headlessUi(), shopify()],
     },
     {
       title: 'Langues',

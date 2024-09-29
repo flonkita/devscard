@@ -250,6 +250,13 @@ export const mysql = createSkillFactory({
   url: 'https://www.mysql.com/',
 });
 
+export const shopify = createSkillFactory({
+  name: 'Shopify',
+  icon: 'simple-icons:shopify',
+  iconColor: '#7AB55C',
+  url: 'https://www.shopify.com/',
+});
+
 export const symfony = createSkillFactory({
   name: 'Symfony',
   icon: 'simple-icons:symfony',
