@@ -243,8 +243,6 @@ export const sass = createSkillFactory({
   url: 'https://sass-lang.com/',
 });
 
-
-
 export const mysql = createSkillFactory({
   name: 'MySQL',
   icon: 'simple-icons:mysql',
@@ -252,18 +250,18 @@ export const mysql = createSkillFactory({
   url: 'https://www.mysql.com/',
 });
 
+export const shopify = createSkillFactory({
+  name: 'Shopify',
+  icon: 'simple-icons:shopify',
+  iconColor: '#7AB55C',
+  url: 'https://www.shopify.com/',
+});
+
 export const symfony = createSkillFactory({
   name: 'Symfony',
   icon: 'simple-icons:symfony',
   iconColor: '#000000',
   url: 'https://symfony.com/',
-});
-
-export const supabase = createSkillFactory({
-  name: 'Supabase',
-  icon: 'simple-icons:supabase',
-  iconColor: '#3ECF8E',
-  url: 'https://supabase.io/',
 });
 
 export const tailwindCss = createSkillFactory({
