@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/flo-profile.jpg'),
   fullName: 'Florent Nkita',
-  role: 'Mastère Expert en Solutions Digitales - Futur Alternant',
+  role: 'Master Développement Web',
   details: [
     { label: 'Téléphone', value: '07 81 76 62 12', url: 'tel:07 81 76 62 12' },
     { label: 'Mail', value: 'florent.nkita@gmail.com', url: 'mailto:florent.nkita@gmail.com' },

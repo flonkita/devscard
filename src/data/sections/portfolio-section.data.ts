@@ -28,7 +28,7 @@ const portfolioSectionData = {
     {
       name: 'Sneakpeek',
       image: import('@/assets/portfolio/sneakpeek.png'),
-      dates: [new Date('2024-01'), null],
+      dates: [new Date('2024-01'), new Date('2024-09')],
       details: [
         { label: 'Mon rôle', value: ['Développeur Full-Stack', 'UX / UI Designer'] },
         { label: 'Catégories', value: ['Appli Web', 'Open source'] },
