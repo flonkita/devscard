@@ -18,6 +18,13 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 
 */
 
+export const angular = createSkillFactory({
+  name: 'Angular',
+  icon: 'simple-icons:angular',
+  iconColor: '#DD0031',
+  url: 'https://angular.io/',
+});
+
 export const apolloGraphql = createSkillFactory({
   name: 'Apollo GraphQL',
   icon: 'simple-icons:apollographql',

@@ -13,7 +13,7 @@ const config = {
   meta: {
     title: 'Florent Nkita - Portfolio',
     description:
-      "Développeur web full-stack passionné par la création de sites web et d'applications web modernes et performantes.",
+      "Développeur web passionné par la création de sites web et d'applications web modernes et performantes.",
     faviconPath: '/src/assets/favicon.png',
     // ogImage: '/src/assets/og/main-icon.jpeg',
   },

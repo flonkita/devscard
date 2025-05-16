@@ -12,7 +12,7 @@ import {
   nextJs,
   symfony,
   mysql,
-  csharp,
+  angular,
   wordpress,
   vue,
   flutter,
@@ -66,7 +66,7 @@ const skillsSectionData = {
     },
     {
       title: 'Ce que je souhaite apprendre',
-      skills: [flutter(), csharp(), headlessUi(), shopify()],
+      skills: [flutter(), angular(), headlessUi(), shopify()],
     },
     {
       title: 'Langues',
