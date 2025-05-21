@@ -26,7 +26,7 @@ const experienceSectionData = {
       role: 'Développeur Front-End',
       company: 'VanillaHR',
       image: import('@/assets/logos/vanillahr-logo.png'),
-      dates: [new Date('2024-05'), new Date('2024-07')],
+      dates: [new Date('2024-04'), new Date('2024-10')],
       description: `
         - Participation à la veille technologique
         - Participation à l'amélioration de la partie Front-End de l'application
